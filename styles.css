@@ -30,3 +30,6 @@ button{
 .active{
 	border-color: #3498DB !important;
 }
+.disable{
+	background-color: grey !important;
+}
