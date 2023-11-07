@@ -1,4 +1,10 @@
 /*  your css code here. If applicable */
+.main{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+}
 .container{
 	display: flex;
 	align-items: center;
@@ -14,5 +20,13 @@
 	border: 4px solid grey;
 }
 button{
-	
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #3498DB;
+	color:  white;
+	border: none;
+	margin-inline: 10px;
+}
+.active{
+	border-color: #3498DB !important;
 }
